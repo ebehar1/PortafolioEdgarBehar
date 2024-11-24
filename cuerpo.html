@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#redes-sociales">Redes Sociales</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <h1>¡Hola! Soy Edgar Behar</h1>
+        <p>Estudiante de Diseño Digital De Medios Interactivos.</p>
+    </section>
+
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Mi nombre es Edgar Behar, y desde pequeño siempre me ha fascinado los videojuegos. Decidí estudiar diseño digital de medios Interactivos y, desde entonces, he estado trabajando en proyectos que me permiten combinar mi pasión por los videojuegos en el apartado artistico con la creatividad.</p>
+        <p>Comencé mi carrera trabajando en varios proyectos pequeños como lo son: algunas ilustraciones, dibujos tecnicos, modelado en 3D y algunas paginas web, donde pude aplicar mis conocimientos y, al mismo tiempo, aprender cosas nuevas. Me encanta aprender sobre tecnicas nuevas y siempre estoy buscando nuevas formas de mejorar mis habilidades.</p>
+        <p>Además de mi carrera, me gusta leer y escuchar musica. Creo que la inspiración puede venir de cualquier parte, y siempre trato de estar abierto a nuevas ideas y perspectivas.</p>
+        <img src="Imagenes/Perfil.jpg" alt="Mi Foto">
+    </section>
+
+
+    <section id="proyectos">
+        <h2>Mis Proyectos</h2>
+        <div class="proyectos-galeria">
+        </div>
+    </section>
+
+<!-- Lightbox para mostrar la imagen completa -->
+<div id="lightbox" class="lightbox">
+    <span class="cerrar" onclick="cerrarLightbox()">&times;</span>
+    <img id="imagen-lightbox" src="" alt="Imagen ampliada">
+</div>
+
+<section id="redes-sociales">
+    <h2>Mis Redes Sociales</h2>
+    <div class="redes-sociales">
+        <a href="https://x.com/ebehar_" target="_blank">
+            <img src="Imagenes/twitter.png" alt="Twitter">
+        </a>
+        <a href="https://www.instagram.com/ebehar_/" target="_blank">
+            <img src="Imagenes/instagram.png" alt="Instagram">
+        </a>
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2024 Edgar Behar. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
